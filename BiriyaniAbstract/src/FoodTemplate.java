@@ -20,6 +20,7 @@ public abstract class FoodTemplate {
 
     }
     public HotelLocation gethotellocation(){
+
         return new HotelLocation("MEAFIL","Nijampeta",1);
     }
     public Reciepe getReciepe(){
