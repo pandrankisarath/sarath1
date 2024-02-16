@@ -10,14 +10,15 @@ public class CounterBooking extends MovieTicket{
     }
 
 
-    public void displayTicket() {
+    public int displayTicket() {
 
-        System.out.println("No Of Seats : " + noOfSeats);
+       return noOfSeats;
     }
-    public void displayTicket(int ticketPrice) {
-        ticketPrice =200*noOfSeats;
+    public int displayTicket(int noOfSeats) {
+        //noOfSeats =200*noOfSeats;
         System.out.println("No Of Seats: " + noOfSeats);
-        System.out.println(ticketPrice);
+        noOfSeats =200*noOfSeats;
+        return noOfSeats;
 
     }
 

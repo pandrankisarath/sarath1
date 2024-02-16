@@ -8,10 +8,9 @@ public class OnlineBooking extends MovieTicket {
         super();
 
     }
-
-    public OnlineBooking(String movieName, String theaterName, String showTime,  String bookingCode) {
+    public OnlineBooking(String movieName, String theaterName, String showTime) {
         super(movieName, theaterName, showTime);
-        this.bookingCode = bookingCode;
+        this.bookingCode = "Techjunkies";
     }
 
 
